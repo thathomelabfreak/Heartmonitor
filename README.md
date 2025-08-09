@@ -1,3 +1,4 @@
+Still in beta.
 Heartbeat Monitor
 
 A Python-based network monitor that pings devices on a schedule, logs results, and sends email alerts
