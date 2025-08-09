@@ -1,0 +1,20 @@
+servers:
+  - name: Skylake
+    host: 10.0.0.32
+
+
+  - name: Broadwell
+    host: 10.0.0.33
+ 
+
+  - name: Truenas
+    host: 10.0.0.23
+
+
+
+email:
+  sender: "gpike20@yahoo.com"
+  password: "puerwxlygzpppwco"
+  recipient: "gpike20@yahoo.com"
+  smtp_server: "smtp.mail.yahoo.com"
+  smtp_port: 587
