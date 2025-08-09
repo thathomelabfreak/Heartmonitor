@@ -1,11 +1,14 @@
 Heartbeat Monitor
+
 A Python-based network monitor that pings devices on a schedule, logs results, and sends email alerts
 when hosts go down, hourly re-alerts while still down, and an all-clear when they recover.
 Features
 - Checks hosts every 15 minutes (configurable) - Per-host state tracking (up/down) - Hourly re-alerts
 while down - All-clear email notifications when recovered - Daily log rotation (14-day retention) -
 Optional weekly test email via cron
+
 Requirements
+
 - Python 3.9+ - Virtual environment recommended - Dependencies: ping3 PyYAML - emailutil.py —
 included below (edit with your SMTP settings in config.yaml)
 
@@ -17,7 +20,7 @@ pip install -r requirements.txt
 
 Usage:
 Run the monitor:
-python3 main.py
+python3 Heartmonitorv1.py
 Send a test email:
 python3 main.py --test-email
 Stop the monitor:
